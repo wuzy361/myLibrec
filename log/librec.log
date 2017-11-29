@@ -1,0 +1,59 @@
+Dataset: ../data/movielens/ml-100k
+All dataset files [..\data\movielens\ml-100k\ratings.txt]
+All dataset files size 2079173
+Now loading dataset file ratings
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 80019
+Data size of testing is 19981
+Transform data to Feature successfully!
+Job Setup completed.
+TrustMFRecommender iter 1: loss = 6727.243048102795, delta_loss = -6727.243
+TrustMFRecommender iter 2: loss = 5793.442559107903, delta_loss = 933.8005
+TrustMFRecommender iter 3: loss = 4980.387670855964, delta_loss = 813.0549
+TrustMFRecommender iter 4: loss = 4420.132869198444, delta_loss = 560.2548
+TrustMFRecommender iter 5: loss = 4059.178411556363, delta_loss = 360.95447
+TrustMFRecommender iter 6: loss = 3815.7031151515885, delta_loss = 243.4753
+TrustMFRecommender iter 7: loss = 3646.9826479551753, delta_loss = 168.72047
+TrustMFRecommender iter 8: loss = 3526.851971878933, delta_loss = 120.13068
+TrustMFRecommender iter 9: loss = 3440.53333301081, delta_loss = 86.31864
+TrustMFRecommender iter 10: loss = 3378.7784915359402, delta_loss = 61.75484
+TrustMFRecommender iter 11: loss = 3335.7987279545023, delta_loss = 42.979763
+TrustMFRecommender iter 12: loss = 3317.905742178456, delta_loss = 17.892986
+TrustMFRecommender iter 13: loss = 3304.795870713273, delta_loss = 13.109872
+TrustMFRecommender iter 14: loss = 3296.1710104482017, delta_loss = 8.62486
+TrustMFRecommender iter 15: loss = 3291.834533383972, delta_loss = 4.3364773
+TrustMFRecommender iter 16: loss = 3291.6748097241934, delta_loss = 0.15972365
+TrustMFRecommender iter 17: loss = 3295.650963198683, delta_loss = -3.9761534
+TrustMFRecommender iter 18: loss = 3303.776239517862, delta_loss = -8.125277
+TrustMFRecommender iter 19: loss = 3316.094514345088, delta_loss = -12.3182745
+TrustMFRecommender iter 20: loss = 3332.644617779285, delta_loss = -16.550104
+TrustMFRecommender iter 1: loss = 3397.718000117266, delta_loss = -65.07338
+TrustMFRecommender iter 2: loss = 3264.742135677225, delta_loss = 132.97586
+TrustMFRecommender iter 3: loss = 3201.5117268740514, delta_loss = 63.230408
+TrustMFRecommender iter 4: loss = 3164.0374141116577, delta_loss = 37.47431
+TrustMFRecommender iter 5: loss = 3136.1923822144286, delta_loss = 27.845032
+TrustMFRecommender iter 6: loss = 3111.5743345777546, delta_loss = 24.618048
+TrustMFRecommender iter 7: loss = 3088.145524388512, delta_loss = 23.42881
+TrustMFRecommender iter 8: loss = 3065.5663622098627, delta_loss = 22.579163
+TrustMFRecommender iter 9: loss = 3043.992263569606, delta_loss = 21.574099
+TrustMFRecommender iter 10: loss = 3023.628589808002, delta_loss = 20.363674
+TrustMFRecommender iter 11: loss = 3004.6060607669483, delta_loss = 19.02253
+TrustMFRecommender iter 12: loss = 2993.8112482065603, delta_loss = 10.794812
+TrustMFRecommender iter 13: loss = 2983.5347592113785, delta_loss = 10.276489
+TrustMFRecommender iter 14: loss = 2973.759805362908, delta_loss = 9.774954
+TrustMFRecommender iter 15: loss = 2964.4678023909355, delta_loss = 9.292003
+TrustMFRecommender iter 16: loss = 2955.6388047193527, delta_loss = 8.828998
+TrustMFRecommender iter 17: loss = 2947.251956709361, delta_loss = 8.386848
+TrustMFRecommender iter 18: loss = 2939.285926925786, delta_loss = 7.9660296
+TrustMFRecommender iter 19: loss = 2931.7193056309097, delta_loss = 7.5666213
+TrustMFRecommender iter 20: loss = 2924.530951485489, delta_loss = 7.188354
+Job Train completed.
+Job End.
+Evaluator value:RECALL top 10 is 0.02607361269834268
+Evaluator value:NDCG top 10 is 0.06279216124711393
+Evaluator value:RR top 10 is 0.16447423791008092
+Evaluator value:PRECISION top 10 is 0.05302226935312861
+Evaluator value:AP top 10 is 0.02564819323511192
+Evaluator value:AUC top 10 is 0.6702533975591628
+Result path is ../result/movielens/ml-100k-trustmf-output/trustmf

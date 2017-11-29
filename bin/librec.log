@@ -1,0 +1,23 @@
+Dataset: ../data/filmtrust/rating
+All dataset files [..\data\filmtrust\rating\ratings_0.txt, ..\data\filmtrust\rating\ratings_1.txt, ..\data\filmtrust\rating\ratings_2.txt, ..\data\filmtrust\rating\ratings_3.txt]
+All dataset files size 411942
+Now loading dataset file ratings_0
+Now loading dataset file ratings_1
+Now loading dataset file ratings_2
+Now loading dataset file ratings_3
+Transform data to Convertor successfully!
+Split data to train Set and test Set successfully!
+Data size of training is 28408
+Data size of testing is 7086
+Job Setup completed.
+Job Train completed.
+Job End.
+Evaluator value:RECALL top 10 is 0.6384194346824855
+Evaluator value:AUC top 10 is 0.9327546416519377
+Evaluator value:Novelty top 10 is 11.163713407121422
+Evaluator value:NDCG top 10 is 0.5516821016162952
+Evaluator value:AP top 10 is 0.4517463483025412
+Evaluator value:Entropy top 10 is 16.27494536747353
+Evaluator value:RR top 10 is 0.6013270317335043
+Evaluator value:PRECISION top 10 is 0.347829518547752
+Result path is ../result/filmtrust/rating-bhfree-output/bhfree
