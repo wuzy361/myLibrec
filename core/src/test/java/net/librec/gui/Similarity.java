@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Similarity extends JFrame {
-    private static Similarity similarity;
+    private static Similarity similarity = null;
     private Similarity(){
         this.setLayout(null);
         JLabel l1 = new JLabel();

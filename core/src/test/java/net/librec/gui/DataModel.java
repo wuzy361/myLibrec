@@ -1,37 +1,44 @@
 package net.librec.gui;
 import javax.swing.*;
+
+import net.librec.entrace.BHFree;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowListener;
 
 public class DataModel extends JFrame{
-    private static DataModel dataModel;
+	private static  BHFree bhfree;
+    private static  DataModel dataModel;
  // setting dataset name
- 	private static  String inputDir = "filmtrust/rating";
+ 	private String inputDir = "filmtrust/rating";
  // set result directory
- 	private static String resultDir = "../result";
+ 	private String resultDir = "../result";
  //setting dataset format(UIR, UIRT)
- 	private  static String format = "UIR";
+ 	private String format = "UIR";
  //setting method of split data
- 	private static  String splitter = "ratio";
+ 	private String splitter = "ratio";
  //value can be ratio, loocv, given, KCV
- 	private static String ratio = "rating";
+ 	private String ratio = "rating";
  //setting the dataset is saved by what
- 	private static String mformat = "text";
+ 	private  String mformat = "text";
  //setting	the ratio of trainset , this value should in (0,1)
- 	private static String tratio = "0.8";
+ 	private  String tratio = "0.8";
  //setting the random set
- 	private static String seed = "1";
+ 	private String seed = "1";
  //setting the threshold
- 	private static String threshold ="-1";
+ 	private String threshold ="-1";
  //setting evaluation the result or not
- 	private static String evalEnable = "true";
-    private DataModel(){
+ 	private String evalEnable = "true";
+    private DataModel(BHFree bhf){
+    	bhfree = bhf;
+    	System.out.print("in data model");
+    	System.out.println(bhf);
         this.setLayout(null);
         final JComboBox cb1=new JComboBox();
         cb1.addItem("filmtrust");
         cb1.addItem("movielens");
-        cb1.setBounds(130, 110, 180, 30);
+        cb1.setBounds(130, 30, 180, 30);
         JLabel l1 = new JLabel();
         l1.setText("数据文件目录");
         l1.setBounds(30, 30, 100, 30);
@@ -90,6 +97,7 @@ public class DataModel extends JFrame{
         JButton b2 = new JButton();
         b2.setBounds(510, 350, 100, 25);
         b2.setText("返回");
+        this.add(cb1);
         this.add(l1);
         this.add(l2);
         this.add(l3);
@@ -114,8 +122,9 @@ public class DataModel extends JFrame{
         b1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-               String scb1 = cb1.getSelectedItem().toString();
+               int scb1 = cb1.getSelectedIndex();
                System.out.println(scb1);
+//               bhfree.setindex(scb1);
             }
         });
 
@@ -132,9 +141,9 @@ public class DataModel extends JFrame{
         this.setVisible(true);
     }
 
-    public static DataModel getDataModel() {
+    public static DataModel getDataModel(BHFree bhf) {
         if (dataModel == null){
-            dataModel = new DataModel();
+            dataModel = new DataModel(bhfree);
         }
          return dataModel;
         }

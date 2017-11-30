@@ -40,7 +40,7 @@ public class Recommender extends JFrame {
         this.setVisible(true);
     }
 
-    public static Recommender getSimilartiy() {
+    public static Recommender getRecommeder() {
         if (recommender == null){
             recommender = new Recommender();
         }

@@ -14,11 +14,15 @@ import net.librec.common.LibrecException;
 import net.librec.entrace.BHFree;
 public class Index extends JFrame{
 
+	private BHFree bhfree = null;
 	private DataModel dataModel = null;
 	private DataModel similarity = null;
 	private DataModel recommender = null;
 //	private DataModel dataModel = null;
-    public Index(){
+    public Index(BHFree bhf){
+    	bhfree = bhf;
+    	System.out.print("in index");
+    	System.out.println(bhfree);
         this.setLayout(null);
         JLabel l1 = new JLabel();
         l1.setText("执行结果");
@@ -50,8 +54,7 @@ public class Index extends JFrame{
             public void actionPerformed(ActionEvent e) {
             	if (dataModel ==null)
             	{
-            		System.out.println("no");
-            	     dataModel = DataModel.getDataModel();
+            	     dataModel = DataModel.getDataModel(bhfree);
             	}
             	else
             	{
@@ -66,14 +69,31 @@ public class Index extends JFrame{
         b2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Similarity similarity = Similarity.getSimilartiy();
+            	
+            	if (similarity ==null)
+            	{
+            		Similarity similarity = Similarity.getSimilartiy();
+            	}
+            	else
+            	{
+            		similarity.setVisible(true);
+            	}
+                
             }
         });
         this.add(b3);
         b3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Recommender recommender = Recommender.getSimilartiy();
+            	if (recommender ==null)
+            	{
+            		Recommender recommender = Recommender.getRecommeder();
+            	}
+            	else
+            	{
+            		recommender.setVisible(true);
+            	}
+           
             }
         });
         b6.addActionListener(new ActionListener() {
@@ -81,7 +101,7 @@ public class Index extends JFrame{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 					GUIConsole guiconsole = GUIConsole.getGUIConsole();
-				    Thread1 t1 = new Thread1("t1");
+				    Thread1 t1 = new Thread1("t1",bhfree);
 					t1.start();
 								
 			}
@@ -99,9 +119,12 @@ public class Index extends JFrame{
 class Thread1 extends Thread {
 	   private Thread t;
 	   private String threadName;
+	   private BHFree bhfree = null;
 	   
-	   Thread1( String name) {
+	   Thread1( String name,BHFree bh) {
+		  
 	      threadName = name;
+	      bhfree = bh;
 	      System.out.println("Creating " +  threadName );
 	   }
 	   
@@ -109,7 +132,7 @@ class Thread1 extends Thread {
 		    InputStream ins = null;
 			try
 		       {
-				BHFree.start();
+				bhfree.start();
 		       }
 		         catch (Exception e)
 				{
