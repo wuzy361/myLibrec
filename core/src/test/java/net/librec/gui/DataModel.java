@@ -30,10 +30,11 @@ public class DataModel extends JFrame{
  	private String threshold ="-1";
  //setting evaluation the result or not
  	private String evalEnable = "true";
-    private DataModel(BHFree bhf){
-    	bhfree = bhf;
-    	System.out.print("in data model");
-    	System.out.println(bhf);
+    public DataModel(){
+    	staticExample.printCnt();
+//    	bhfree = bhf;
+//    	System.out.print("in data model");
+//    	System.out.println(bhf);
         this.setLayout(null);
         final JComboBox cb1=new JComboBox();
         cb1.addItem("filmtrust");
@@ -124,7 +125,7 @@ public class DataModel extends JFrame{
             public void actionPerformed(ActionEvent e) {
                int scb1 = cb1.getSelectedIndex();
                System.out.println(scb1);
-//               bhfree.setindex(scb1);
+               bhfree.setindex(scb1);
             }
         });
 
@@ -141,9 +142,9 @@ public class DataModel extends JFrame{
         this.setVisible(true);
     }
 
-    public static DataModel getDataModel(BHFree bhf) {
+    public static DataModel getDataModel( ) {
         if (dataModel == null){
-            dataModel = new DataModel(bhfree);
+            dataModel = new DataModel();
         }
          return dataModel;
         }

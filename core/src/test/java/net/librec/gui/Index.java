@@ -14,15 +14,12 @@ import net.librec.common.LibrecException;
 import net.librec.entrace.BHFree;
 public class Index extends JFrame{
 
-	private BHFree bhfree = null;
 	private DataModel dataModel = null;
 	private DataModel similarity = null;
 	private DataModel recommender = null;
 //	private DataModel dataModel = null;
-    public Index(BHFree bhf){
-    	bhfree = bhf;
-    	System.out.print("in index");
-    	System.out.println(bhfree);
+    public Index(){
+    	staticExample.printCnt();
         this.setLayout(null);
         JLabel l1 = new JLabel();
         l1.setText("执行结果");
@@ -54,7 +51,7 @@ public class Index extends JFrame{
             public void actionPerformed(ActionEvent e) {
             	if (dataModel ==null)
             	{
-            	     dataModel = DataModel.getDataModel(bhfree);
+            	     dataModel = DataModel.getDataModel();
             	}
             	else
             	{
@@ -101,7 +98,7 @@ public class Index extends JFrame{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 					GUIConsole guiconsole = GUIConsole.getGUIConsole();
-				    Thread1 t1 = new Thread1("t1",bhfree);
+				    Thread1 t1 = new Thread1("t1");
 					t1.start();
 								
 			}
@@ -121,10 +118,10 @@ class Thread1 extends Thread {
 	   private String threadName;
 	   private BHFree bhfree = null;
 	   
-	   Thread1( String name,BHFree bh) {
+	   Thread1( String name ) {
 		  
 	      threadName = name;
-	      bhfree = bh;
+
 	      System.out.println("Creating " +  threadName );
 	   }
 	   

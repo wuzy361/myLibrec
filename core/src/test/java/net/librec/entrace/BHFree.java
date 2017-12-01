@@ -8,30 +8,30 @@ import net.librec.gui.DataModel;
 import net.librec.job.RecommenderJob;
 
 public class BHFree{
-    private static DataModel dataModel;
+    private  DataModel dataModel;
  //  dataset name
  	private static  String[] inputDir = {"filmtrust/rating","movielens/ml-100k"};
  // dataset index
- 	private int index;
+ 	private static int index;
  // set result directory
- 	private  String resultDir = "../result";
+ 	private  static String resultDir = "../result";
  //setting dataset format(UIR, UIRT)
- 	private   String format = "UIR";
+ 	private  static  String format = "UIR";
  //setting method of split data
- 	private   String splitter = "ratio";
+ 	private  static String splitter = "ratio";
  //value can be ratio, loocv, given, KCV
- 	private  String ratio = "rating";
+ 	private  static String ratio = "rating";
  //setting the dataset is saved by what
- 	private  String mformat = "text";
+ 	private static String mformat = "text";
  //setting	the ratio of trainset , this value should in (0,1)
- 	private  String tratio = "0.8";
+ 	private static String tratio = "0.8";
  //setting the random set
- 	private  String seed = "1";
+ 	private static String seed = "1";
  //setting the threshold
- 	private  String threshold ="-1";
+ 	private static String threshold ="-1";
  //setting evaluation the result or not
- 	private  String evalEnable = "true";
-	public  void start() throws ClassNotFoundException, LibrecException, IOException
+ 	private static String evalEnable = "true";
+	public static void start() throws ClassNotFoundException, LibrecException, IOException
 	{
 		Configuration conf = new Configuration();
 	    Configuration.Resource resource = new Configuration.Resource("rec/cf/bhfree-test.properties");
