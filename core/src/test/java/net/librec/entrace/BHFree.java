@@ -8,11 +8,26 @@ import net.librec.gui.DataModel;
 import net.librec.job.RecommenderJob;
 
 public class BHFree{
+	
     private  DataModel dataModel;
+ // baseline algorithm
+    private static  String[] baselineAlg = {
+    		                                  "rec/baseline/constantguess-test",
+    		                                  "rec/baseline/globalaverage",
+    		                                  "rec/baseline/itemaverage",
+    		                                  "rec/baseline/itemcluster",
+    		                                  "rec/baseline/mostpopular",
+    		                                  "rec/baseline/randomguess",
+    		                                  "rec/baseline/useraverage",
+    		                                  "rec/baseline/usercluster",
+    		                                  "rec/cf/bhfree-test",
+    		                                  "rec/cf/itemknn-test"};
  //  dataset name
  	private static  String[] inputDir = {"filmtrust/rating","movielens/ml-100k"};
  // dataset index
- 	private static int index;
+ 	private static int index1 = 0;
+ 	private static int index2 = 0;
+ 	private static int algindex = 0;
  // set result directory
  	private  static String resultDir = "../result";
  //setting dataset format(UIR, UIRT)
@@ -34,10 +49,10 @@ public class BHFree{
 	public static void start() throws ClassNotFoundException, LibrecException, IOException
 	{
 		Configuration conf = new Configuration();
-	    Configuration.Resource resource = new Configuration.Resource("rec/cf/bhfree-test.properties");
+	    Configuration.Resource resource = new Configuration.Resource(baselineAlg[algindex]+".properties");
 	    conf.addResource(resource);
 	    conf.set("dfs.data.dir", "../data");
-	    conf.set("data.input.path", inputDir[1]);
+	    conf.set("data.input.path", inputDir[index1]);
 	    conf.set("dfs.result.dir", resultDir);
 	    conf.set("data.column.format", format);
 	    conf.set("data.model.splitter", splitter);
@@ -49,39 +64,56 @@ public class BHFree{
 	    conf.set("rec.eval.enable", evalEnable);
 
 	    RecommenderJob job = new RecommenderJob(conf);
+//	    System.out.println(index1);
 	    job.runJob();
+		System.out.println("finished!");	
 	}
-	public  void setindex(int index) {
-		this.index = index;
+	public static  void setindex1(int idx) {
+		index1 = idx;
+//		System.out.print("in bhf");
+//		System.out.println(BHFree.index1);
+
 	}
-	public  void setResultDir(String resultDir) {
-		this.resultDir = resultDir;
+	public static  void setindex2(int idx) {
+		index2 = idx;
+//		System.out.print("in bhf");
+//		System.out.println(BHFree.index1);
+
 	}
-	public  void setFormat(String format) {
-		this.format = format;
+	public static void setAlindex(int idx){
+		algindex = idx;
 	}
-	public  void setSplitter(String splitter) {
-		this.splitter = splitter;
+	public static void setResultDir(String res) {
+		resultDir = res;
 	}
-	public  void setRatio(String ratio) {
-		this.ratio = ratio;
+	public static void setFormat(String fmt) {
+		format = fmt;
 	}
-	public  void setMformat(String mformat) {
-		this.mformat = mformat;
+	public static void setSplitter(String spl) {
+		splitter = spl;
 	}
-	public  void setTratio(String tratio) {
-		this.tratio = tratio;
+	public  static void setRatio(String rat) {
+		ratio = rat;
 	}
-	public  void setSeed(String seed) {
-		this.seed = seed;
+	public static void setMformat(String mfmt) {
+		mformat = mfmt;
 	}
-	public  void setThreshold(String threshold) {
-		this.threshold = threshold;
+	public static void setTratio(String tra) {
+		tratio = tra;
 	}
-	public  void setEvalEnable(String evalEnable) {
-		this.evalEnable = evalEnable;
+	public static void setSeed(String sd) {
+		seed = sd;
 	}
-	
+	public static void setThreshold(String th) {
+		threshold = th;
+	}
+	public static void setEvalEnable(String eval) {
+		evalEnable = eval;
+	}
+	public static int getindex()
+	{
+		return index1;
+	}
 	
 }
 

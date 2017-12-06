@@ -17,9 +17,8 @@ public class Index extends JFrame{
 	private DataModel dataModel = null;
 	private DataModel similarity = null;
 	private DataModel recommender = null;
-//	private DataModel dataModel = null;
+
     public Index(){
-    	staticExample.printCnt();
         this.setLayout(null);
         JLabel l1 = new JLabel();
         l1.setText("执行结果");
@@ -100,7 +99,12 @@ public class Index extends JFrame{
 					GUIConsole guiconsole = GUIConsole.getGUIConsole();
 				    Thread1 t1 = new Thread1("t1");
 					t1.start();
-								
+//					try {
+//						t1.stop();
+//					} catch (InterruptedException e1) {
+//						// TODO Auto-generated catch block
+//						e1.printStackTrace();
+//					}
 			}
 		});
         this.add(b4);
@@ -121,15 +125,13 @@ class Thread1 extends Thread {
 	   Thread1( String name ) {
 		  
 	      threadName = name;
-
-	      System.out.println("Creating " +  threadName );
 	   }
 	   
 	   public void run() {
 		    InputStream ins = null;
 			try
 		       {
-				bhfree.start();
+				BHFree.start();
 		       }
 		         catch (Exception e)
 				{
@@ -138,7 +140,7 @@ class Thread1 extends Thread {
 			}
 	   
 	   public void start () {
-	      System.out.println("Starting " +  threadName );
+	      System.out.println("Starting!" );
 	      if (t == null) {
 	         t = new Thread (this, threadName);
 	         t.start ();

@@ -31,10 +31,6 @@ public class DataModel extends JFrame{
  //setting evaluation the result or not
  	private String evalEnable = "true";
     public DataModel(){
-    	staticExample.printCnt();
-//    	bhfree = bhf;
-//    	System.out.print("in data model");
-//    	System.out.println(bhf);
         this.setLayout(null);
         final JComboBox cb1=new JComboBox();
         cb1.addItem("filmtrust");
@@ -71,7 +67,7 @@ public class DataModel extends JFrame{
         tf1.setBounds(130, 30, 180, 30);
         JTextField tf2 = new JTextField();
         tf2.setBounds(130, 70, 180, 30);
-        JComboBox cb2=new JComboBox();
+        final JComboBox cb2=new JComboBox();
         cb2.addItem("txt");
         cb2.addItem("arff");
         cb2.addItem("mat");
@@ -124,8 +120,9 @@ public class DataModel extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                int scb1 = cb1.getSelectedIndex();
-               System.out.println(scb1);
-               bhfree.setindex(scb1);
+               BHFree.setindex1(scb1);
+               int scb2 = cb2.getSelectedIndex();
+//               BHFree.setindex(scb2);
             }
         });
 

@@ -1,5 +1,8 @@
 package net.librec.gui;
 import javax.swing.*;
+
+import net.librec.entrace.BHFree;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -10,9 +13,18 @@ public class Recommender extends JFrame {
         JLabel l1 = new JLabel();
         l1.setText("选择算法");
         l1.setBounds(30, 30, 100, 30);
-        JComboBox cb = new JComboBox();
-        cb.addItem("suanfa1");
-        cb.addItem("suanfa2");
+        final JComboBox cb = new JComboBox();
+        cb.addItem("constantguess");
+        cb.addItem("globalaverage");
+        cb.addItem("itemaverage");
+        cb.addItem("itemcluster");
+        cb.addItem("mostpopular");
+        cb.addItem("randomguess");
+        cb.addItem("useraverage");
+        cb.addItem("usercluster");
+        cb.addItem("bhfree");
+        cb.addItem("itemknn");
+      
         cb.setBounds(130, 30, 180, 30);
         JTextPane tp = new JTextPane();
         tp.setBounds(30, 70, 300, 300);
@@ -27,6 +39,13 @@ public class Recommender extends JFrame {
         this.add(tp);
         this.add(b1);
         this.add(b2);
+        b1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int cb1 = cb.getSelectedIndex();
+                BHFree.setAlindex(cb1);
+            }
+        });
         b2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
