@@ -1,20 +1,4 @@
-/**
- * Copyright (C) 2016 LibRec
- * <p>
- * This file is part of LibRec.
- * LibRec is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * <p>
- * LibRec is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU General Public License for more details.
- * <p>
- * You should have received a copy of the GNU General Public License
- * along with LibRec. If not, see <http://www.gnu.org/licenses/>.
- */
+
 package net.librec.data.convertor;
 
 import com.google.common.collect.*;
@@ -31,39 +15,34 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
-/**
- * A <tt>ArffDataConvertor</tt> is a class to convert
- * a data file from ARFF format to a target format.
- *
- * @author Tang Jiaxi and Ma Chen
- */
+
 public class ArffDataConvertor extends AbstractDataConvertor {
 
-    /** The path of the input file */
+    
     private String dataPath;
 
-    /** The relation name of input data */
+    
     private String relationName;
 
-    /** The instances of the input data */
+    
     private ArrayList<ArffInstance> instances;
 
-    /** The attributes the input data */
+    
     private ArrayList<ArffAttribute> attributes;
 
-    /** The attribute types of the input data */
+    
     private ArrayList<String> attrTypes;
 
-    /** The column ids of the input data */
+    
     private ArrayList<BiMap<String, Integer>> columnIds;
 
-    /** The user column index */
+    
     private int userCol;
 
-    /** The item column index */
+    
     private int itemCol;
 
-    /** The rating column index */
+    
     private int ratingCol;
 
     public SparseMatrix oneHotFeatureMatrix;
@@ -72,12 +51,7 @@ public class ArffDataConvertor extends AbstractDataConvertor {
     // user, item, appender {raw id, inner id} mapping
     private ArrayList<BiMap<String, Integer>> featuresInnerMapping;
 
-    /**
-     * Initializes a newly created {@code ArffDataConvertor} object
-     * with the path of the input data file.
-     *
-     * @param path  path of the input data file.
-     */
+    
     public ArffDataConvertor(String path) {
         dataPath = path;
         instances = new ArrayList<>();
@@ -95,12 +69,7 @@ public class ArffDataConvertor extends AbstractDataConvertor {
         this.featuresInnerMapping = featureMapping;
     }
 
-    /**
-     * Read data from the data file.
-     *
-     * @throws IOException
-     *         if the path is not valid
-     */
+    
     public void readData() throws IOException {
         final List<File> files = new ArrayList<File>();
         SimpleFileVisitor<Path> finder = new SimpleFileVisitor<Path>() {
@@ -225,12 +194,7 @@ public class ArffDataConvertor extends AbstractDataConvertor {
         preferenceMatrix = sparseTensor.rateMatrix();
     }
 
-    /**
-     * Parse @DATA part of the file.
-     *
-     * @param rd  the reader of the input file.
-     * @throws IOException
-     */
+    
     private void dataReader(Reader rd) throws IOException {
         ArrayList<String> dataLine = new ArrayList<>();
         StringBuilder subString = new StringBuilder();
@@ -304,12 +268,7 @@ public class ArffDataConvertor extends AbstractDataConvertor {
         }
     }
 
-    /**
-     * Process the input data.
-     *
-     * @throws IOException
-     *         if the path is not valid
-     */
+    
     public void processData() throws IOException {
         readData();
     }
@@ -320,10 +279,7 @@ public class ArffDataConvertor extends AbstractDataConvertor {
         // getJobStatus().setProgress(loadAllFileRate);
     }
 
-    /**
-     * Build the {@link #oneHotFeatureMatrix}
-     * and {@link #oneHotRatingVector}
-     */
+    
     public void oneHotEncoding() {
         Table<Integer, Integer, Double> dataTable = HashBasedTable.create();
         Multimap<Integer, Integer> colMap = HashMultimap.create();
@@ -394,11 +350,7 @@ public class ArffDataConvertor extends AbstractDataConvertor {
         colMap = null;
     }
 
-    /**
-     * Generate appender tensor.
-     *
-     * @return  appender tensor
-     */
+    
     private SparseTensor generateFeatureTensor() {
 
         int numRows = instances.size();
@@ -485,56 +437,32 @@ public class ArffDataConvertor extends AbstractDataConvertor {
         return new SparseTensor(dims, nDKeys, ratings);
     }
 
-    /**
-     * Return the relation name of input data.
-     *
-     * @return {@link #relationName}
-     */
+    
     public String getRelationName() {
         return relationName;
     }
 
-    /**
-     * Return the instances of the input data.
-     *
-     * @return {@link #instances}
-     */
+    
     public ArrayList<ArffInstance> getInstances() {
         return instances;
     }
 
-    /**
-     * Return the attributes the input data.
-     *
-     * @return {@link #attributes}
-     */
+    
     public ArrayList<ArffAttribute> getAttributes() {
         return attributes;
     }
 
-    /**
-     * Return user {rawid, inner id} mappings
-     *
-     * @return the mapping between row id and inner id of users
-     */
+    
     public BiMap<String, Integer> getUserIds() {
         return featuresInnerMapping.get(userCol);
     }
 
-    /**
-     * Return item {rawid, inner id} mappings
-     *
-     * @return the mapping between row id and inner id of items
-     */
+    
     public BiMap<String, Integer> getItemIds() {
         return featuresInnerMapping.get(itemCol);
     }
 
-    /**
-     * Return user, item, appender {raw id, inner id} mapping
-     *
-     * @return the mapping between row id and inner id of each columns in data set
-     */
+    
     public ArrayList<BiMap<String, Integer>> getAllFeatureIds() {
         return featuresInnerMapping;
     }

@@ -75,6 +75,9 @@ package net.librec.job;
  * @see Tool
  * @see DistributedCache
  */
+public class JobConf{
+	
+}
 //@InterfaceAudience.Public
 //@InterfaceStability.Stable
 //public class JobConf extends Configuration {

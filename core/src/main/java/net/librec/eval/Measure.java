@@ -21,6 +21,7 @@ import net.librec.eval.ranking.*;
 import net.librec.eval.rating.MAEEvaluator;
 import net.librec.eval.rating.MPEEvaluator;
 import net.librec.eval.rating.MSEEvaluator;
+import net.librec.eval.rating.NMAEEvaluator;
 import net.librec.eval.rating.RMSEEvaluator;
 
 import java.util.ArrayList;
@@ -45,6 +46,7 @@ public enum Measure {
     RMSE(RMSEEvaluator.class),
     MSE(MSEEvaluator.class),
     MAE(MAEEvaluator.class),
+    NMAE(NMAEEvaluator.class),
     MPE(MPEEvaluator.class);
 
     private Class<? extends RecommenderEvaluator> evaluatorClass;
@@ -103,6 +105,7 @@ public enum Measure {
         ratingEnumList.add(new MeasureValue(RMSE));
         ratingEnumList.add(new MeasureValue(MSE));
         ratingEnumList.add(new MeasureValue(MAE));
+        ratingEnumList.add(new MeasureValue(NMAE));
         ratingEnumList.add(new MeasureValue(MPE));
         return ratingEnumList;
     }

@@ -1,7 +1,462 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6503a4dd-a467-470d-8562-2e54b650f1fb" name="Default" comment="" />
+    <list default="true" id="3af6cd2a-78ca-4718-9667-2ee57bf1f269" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/new.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/net/librec/entrace/CMD.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/net/librec/entrace/CMD2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/net/librec/entrace/Gui1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/net/librec/gui/GUIPrintStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/net/librec/gui/exeGui.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/entrace/CMD.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/entrace/CMD2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/entrace/Gui1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/entrace/Thread1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/DataModel$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/apidocs.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_en/AlgorithmList.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_en/CLIWalkthrough.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_en/ConfigurationList.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_en/Context.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_en/DataFileFormat.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_en/DataModel.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_en/Evaluator.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_en/Filter.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_en/Introduction.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_en/LibrecDocument.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_en/Recommender.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_en/filmtrust.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_zh/AlgorithmList.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_zh/CLIWalkthrough.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_zh/ConfigurationList.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_zh/Context.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_zh/DataFileFormat.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_zh/DataModel.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_zh/Evaluator.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_zh/FilmTrust.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_zh/Filter.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_zh/Introduction.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_zh/LibrecDocument.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/wiki_zh/Recommender.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/filmtrust/rating-bhfree-output/bhfree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/filmtrust/rating-itemcluster-output/itemcluster" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/filmtrust/rating-itemknn-output/itemknn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/filmtrust/rating-userknn-output/userknn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/filmtrust/rating-userknn-output/userknn-1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/filmtrust/rating-userknn-output/userknn-2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/filmtrust/rating-userknn-output/userknn-3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/filmtrust/rating-userknn-output/userknn-4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/filmtrust/rating-userknn-output/userknn-5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/movielens/ml-100k-bhfree-output/bhfree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/movielens/ml-100k-itemcluster-output/itemcluster" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/movielens/ml-100k-trustmf-output/trustmf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/datamodeltest/matrix4by4A.txt-userknn-output/userknn-1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/datamodeltest/matrix4by4A.txt-userknn-output/userknn-10" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/datamodeltest/matrix4by4A.txt-userknn-output/userknn-11" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/datamodeltest/matrix4by4A.txt-userknn-output/userknn-12" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/datamodeltest/matrix4by4A.txt-userknn-output/userknn-2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/datamodeltest/matrix4by4A.txt-userknn-output/userknn-3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/datamodeltest/matrix4by4A.txt-userknn-output/userknn-4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/datamodeltest/matrix4by4A.txt-userknn-output/userknn-5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/datamodeltest/matrix4by4A.txt-userknn-output/userknn-6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/datamodeltest/matrix4by4A.txt-userknn-output/userknn-7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/datamodeltest/matrix4by4A.txt-userknn-output/userknn-8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/datamodeltest/matrix4by4A.txt-userknn-output/userknn-9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/datamodeltest/ratings-date.txt-userknn-output/userknn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/result/test/given-testset-userknn-output/userknn" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/annotation/LibrecWaring.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/annotation/LibrecWaring.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/annotation/ModelData.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/annotation/ModelData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/common/AbstractContext.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/common/AbstractContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/common/LibrecContext.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/common/LibrecContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/common/LibrecException.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/common/LibrecException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/conf/Configurable.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/conf/Configurable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/conf/Configuration$Resource.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/conf/Configuration$Resource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/conf/Configuration.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/conf/Configuration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/conf/Configured.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/conf/Configured.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/DataAppender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/DataAppender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/DataContext.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/DataContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/DataConvertor.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/DataConvertor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/DataModel.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/DataModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/DataSplitter$SplitterType.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/DataSplitter$SplitterType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/DataSplitter.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/DataSplitter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/AbstractDataConvertor.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/AbstractDataConvertor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/ArffDataConvertor$1.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/ArffDataConvertor$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/ArffDataConvertor.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/ArffDataConvertor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/JDBCDataConvertor.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/JDBCDataConvertor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/TextDataConvertor$1.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/TextDataConvertor$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/TextDataConvertor.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/TextDataConvertor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/appender/DocumentDataAppender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/appender/DocumentDataAppender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/appender/SocialDataAppender$1.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/appender/SocialDataAppender$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/appender/SocialDataAppender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/convertor/appender/SocialDataAppender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/model/AbstractDataModel.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/model/AbstractDataModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/model/ArffAttribute.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/model/ArffAttribute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/model/ArffDataModel.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/model/ArffDataModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/model/ArffInstance.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/model/ArffInstance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/model/JDBCDataModel.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/model/JDBCDataModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/model/TextDataModel.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/model/TextDataModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/preference/ArffSVMPreference.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/preference/ArffSVMPreference.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/preference/GenericPreference.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/preference/GenericPreference.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/preference/LibSVMPreference.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/preference/LibSVMPreference.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/preference/Preference.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/preference/Preference.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/preference/PreferenceArray.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/preference/PreferenceArray.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/AbstractDataSplitter.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/AbstractDataSplitter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/GivenNDataSplitter.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/GivenNDataSplitter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/GivenTestSetDataSplitter.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/GivenTestSetDataSplitter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/KCVDataSplitter.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/KCVDataSplitter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/LOOCVDataSplitter$LOOCVType.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/LOOCVDataSplitter$LOOCVType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/LOOCVDataSplitter.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/LOOCVDataSplitter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/RatioDataSplitter.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/data/splitter/RatioDataSplitter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/AbstractRecommenderEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/AbstractRecommenderEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/Measure$MeasureValue.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/Measure$MeasureValue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/Measure.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/Measure.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/RecommenderEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/RecommenderEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/AUCEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/AUCEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/AveragePrecisionEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/AveragePrecisionEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/AverageReciprocalHitRankEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/AverageReciprocalHitRankEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/DiversityEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/DiversityEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/EntropyEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/EntropyEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/HitRateEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/HitRateEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/IdealDCGEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/IdealDCGEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/NormalizedDCGEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/NormalizedDCGEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/NoveltyEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/NoveltyEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/PrecisionEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/PrecisionEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/RecallEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/RecallEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/ReciprocalRankEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/ranking/ReciprocalRankEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/rating/MAEEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/rating/MAEEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/rating/MPEEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/rating/MPEEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/rating/MSEEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/rating/MSEEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/eval/rating/RMSEEvaluator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/eval/rating/RMSEEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/filter/GenericRecommendedFilter.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/filter/GenericRecommendedFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/filter/RecommendedFilter.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/filter/RecommendedFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/job/JobStatus.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/job/JobStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/job/RecommenderJob.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/job/RecommenderJob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/job/progress/ProgressReporter.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/job/progress/ProgressReporter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/job/progress/Progressable.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/job/progress/Progressable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/Gamma.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/Gamma.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/Gaussian.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/Gaussian.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/KernelSmoothing.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/KernelSmoothing.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/Maths.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/Maths.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/Randoms.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/Randoms.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/SVD.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/SVD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/Shuffle.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/Shuffle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/Stats.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/algorithm/Stats.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/DataMatrix.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/DataMatrix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/DataSet.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/DataSet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/DenseMatrix.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/DenseMatrix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/DenseVector.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/DenseVector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/DiagMatrix.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/DiagMatrix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/MatrixEntry.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/MatrixEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$1.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$2.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$3.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$4.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$5.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$ColEntry.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$ColEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$ColIterator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$ColIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$MatrixIterator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$MatrixIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$RowEntry.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$RowEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$RowIterator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$RowIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$SparseMatrixEntry.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix$SparseMatrixEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseMatrix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseStringMatrix$1.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseStringMatrix$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseStringMatrix.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseStringMatrix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseTensor$SparseTensorEntry.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseTensor$SparseTensorEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseTensor$TensorIterator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseTensor$TensorIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseTensor.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseTensor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseVector$SparseVecEntry.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseVector$SparseVecEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseVector$SparseVecIterator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseVector$SparseVecIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseVector.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SparseVector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SymmMatrix.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/SymmMatrix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/TensorEntry.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/TensorEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/VectorEntry.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/math/structure/VectorEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/AbstractRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/AbstractRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/FactorizationMachineRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/FactorizationMachineRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/MatrixFactorizationRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/MatrixFactorizationRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ProbabilisticGraphicalRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ProbabilisticGraphicalRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/Recommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/Recommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/RecommenderContext.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/RecommenderContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/SocialRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/SocialRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/TensorRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/TensorRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/ConstantGuessRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/ConstantGuessRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/GlobalAverageRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/GlobalAverageRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/ItemAverageRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/ItemAverageRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/ItemClusterRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/ItemClusterRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/MostPopularRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/MostPopularRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/RandomGuessRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/RandomGuessRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/UserAverageRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/UserAverageRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/UserClusterRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/baseline/UserClusterRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/BHFreeRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/BHFreeRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/BUCMRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/BUCMRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ItemKNNRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ItemKNNRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/UserKNNRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/UserKNNRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/AoBPRRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/AoBPRRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/AspectModelRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/AspectModelRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/BPRRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/BPRRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/CLIMFRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/CLIMFRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/EALSRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/EALSRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/FISMaucRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/FISMaucRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/FISMrmseRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/FISMrmseRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/GBPRRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/GBPRRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/ItemBigramRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/ItemBigramRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/LDARecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/LDARecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/ListRankMFRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/ListRankMFRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/NMFItemItemRecommender$AggResult.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/NMFItemItemRecommender$AggResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/NMFItemItemRecommender$ParallelExecTask.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/NMFItemItemRecommender$ParallelExecTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/NMFItemItemRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/NMFItemItemRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/PLSARecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/PLSARecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/PNMFRecommender$AggResult.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/PNMFRecommender$AggResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/PNMFRecommender$ParallelExecTask.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/PNMFRecommender$ParallelExecTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/PNMFRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/PNMFRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/RankALSRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/RankALSRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/RankSGDRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/RankSGDRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/SLIMRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/SLIMRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/WBPRRecommender$1.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/WBPRRecommender$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/WBPRRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/WBPRRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/WRMFRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/ranking/WRMFRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/ASVDPlusPlusRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/ASVDPlusPlusRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/AspectModelRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/AspectModelRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BPMFRecommender$HyperParameters.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BPMFRecommender$HyperParameters.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BPMFRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BPMFRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BPoissMFRecommender$GammaDenseMatrix.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BPoissMFRecommender$GammaDenseMatrix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BPoissMFRecommender$GammaDenseMatrixGR.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BPoissMFRecommender$GammaDenseMatrixGR.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BPoissMFRecommender$GammaDenseVector.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BPoissMFRecommender$GammaDenseVector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BPoissMFRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BPoissMFRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BiasedMFRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/BiasedMFRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/FFMRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/FFMRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/FMALSRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/FMALSRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/FMFTRLRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/FMFTRLRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/FMSGDRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/FMSGDRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/GPLSARecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/GPLSARecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/LDCCRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/LDCCRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/LLORMARecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/LLORMARecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/LLORMAUpdater.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/LLORMAUpdater.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/MFALSRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/MFALSRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/NMFRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/NMFRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/PMFRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/PMFRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/PredictionType.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/PredictionType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/RBMRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/RBMRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/RFRecRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/RFRecRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/SVDPlusPlusRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/SVDPlusPlusRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/URPRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/cf/rating/URPRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/content/EFMRecommender$1.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/content/EFMRecommender$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/content/EFMRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/content/EFMRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/content/HFTRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/content/HFTRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/ranking/SBPRRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/ranking/SBPRRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/RSTERecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/RSTERecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/SoRecRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/SoRecRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/SoRegRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/SoRegRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/SocialMFRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/SocialMFRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/TimeSVDRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/TimeSVDRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/TrustMFRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/TrustMFRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/TrustSVDRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/context/rating/TrustSVDRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ext/AssociationRuleRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ext/AssociationRuleRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ext/BipolarSlopeOneRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ext/BipolarSlopeOneRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ext/ExternalRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ext/ExternalRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ext/PRankDRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ext/PRankDRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ext/PersonalityDiagnosisRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ext/PersonalityDiagnosisRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ext/SlopeOneRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/ext/SlopeOneRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/hybrid/HybridRecommender.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/hybrid/HybridRecommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/GenericRecommendedItem.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/GenericRecommendedItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/ItemEntry.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/ItemEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/RecommendedItem.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/RecommendedItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/RecommendedItemList$UserItemRatingItr.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/RecommendedItemList$UserItemRatingItr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/RecommendedItemList$UserListIterator.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/RecommendedItemList$UserListIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/RecommendedItemList.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/RecommendedItemList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/RecommendedList.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/RecommendedList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/UserItemRatingEntry.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/recommender/item/UserItemRatingEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/AbstractRecommenderSimilarity.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/AbstractRecommenderSimilarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/BinaryCosineSimilarity.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/BinaryCosineSimilarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/CPCSimilarity.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/CPCSimilarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/CosineSimilarity.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/CosineSimilarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/DiceCoefficientSimilarity.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/DiceCoefficientSimilarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/ExJaccardSimilarity.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/ExJaccardSimilarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/JaccardSimilarity.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/JaccardSimilarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/KRCCSimilarity.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/KRCCSimilarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/MSDSimilarity.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/MSDSimilarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/MSESimilarity.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/MSESimilarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/PCCSimilarity.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/PCCSimilarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/RecommenderSimilarity.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/similarity/RecommenderSimilarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/tool/LibrecTool.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/tool/LibrecTool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/tool/driver/DataDriver.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/tool/driver/DataDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/tool/driver/RecDriver.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/tool/driver/RecDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/DateUtil.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/DateUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/DriverClassUtil.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/DriverClassUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/FileUtil$Converter.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/FileUtil$Converter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/FileUtil$MapWriter.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/FileUtil$MapWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/FileUtil.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/FileUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/IOUtil.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/IOUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/JobUtil.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/JobUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/Lists$1.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/Lists$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/Lists$2.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/Lists$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/Lists$3.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/Lists$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/Lists$4.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/Lists$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/Lists.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/Lists.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/RatingContext.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/RatingContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/ReflectionUtil.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/ReflectionUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/StringUtil.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/StringUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/Systems$OS.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/Systems$OS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/Systems.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/Systems.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/URLReader.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/URLReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/net/librec/util/ZeroSetter.class" afterPath="$PROJECT_DIR$/core/target/classes/net/librec/util/ZeroSetter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/BaseCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/BaseCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/BaseTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/BaseTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/TestCaseSuite.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/TestCaseSuite.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/conf/ConfigurationTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/conf/ConfigurationTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/convertor/ArffDataConvertorTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/convertor/ArffDataConvertorTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/convertor/TextDataConvertorTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/convertor/TextDataConvertorTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/convertor/appender/SocialDataAppenderTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/convertor/appender/SocialDataAppenderTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/model/ArffDataModelTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/model/ArffDataModelTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/model/TextDataModelTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/model/TextDataModelTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/splitter/GivenNDataSplitterTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/splitter/GivenNDataSplitterTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/splitter/GivenTestSetDataSplitterTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/splitter/GivenTestSetDataSplitterTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/splitter/KCVDataSplitterTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/splitter/KCVDataSplitterTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/splitter/LOOCVDataSplitterTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/splitter/LOOCVDataSplitterTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/splitter/RatioDataSplitterTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/data/splitter/RatioDataSplitterTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/entrace/BHFree.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/entrace/BHFree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/filter/GenericRecommendedFilterTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/filter/GenericRecommendedFilterTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Client.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/DataModel$1.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/DataModel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/DataModel.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/DataModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/GUIConsole.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/GUIConsole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Index$1.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Index$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Index$2.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Index$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Index$3.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Index$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Index$4.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Index$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Index.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Index.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Recommender$1.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Recommender$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Recommender.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Recommender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Similarity$1.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Similarity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Similarity.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Similarity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/TextAreaOutputStream$Appender.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/TextAreaOutputStream$Appender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/TextAreaOutputStream.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/TextAreaOutputStream.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Thread1.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/gui/Thread1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/job/JobStatusTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/job/JobStatusTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/job/RecommenderJobTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/job/RecommenderJobTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/ConstantGuessTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/ConstantGuessTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/GlobalAverageTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/GlobalAverageTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/ItemAverageTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/ItemAverageTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/ItemClusterTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/ItemClusterTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/MostPolularTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/MostPolularTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/RandomGuessTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/RandomGuessTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/UserAverageTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/UserAverageTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/UserClusterTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/baseline/UserClusterTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/BHFreeTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/BHFreeTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/BUCMTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/BUCMTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ItemKNNTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ItemKNNTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/UserKNNTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/UserKNNTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/AOBPRTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/AOBPRTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/AspectModelRankingTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/AspectModelRankingTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/BPRTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/BPRTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/CLIMFTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/CLIMFTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/EALSTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/EALSTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/FISMAUCTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/FISMAUCTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/FISMRMSETestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/FISMRMSETestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/GBPRTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/GBPRTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/ItemBigramTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/ItemBigramTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/LDATestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/LDATestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/ListRankMFTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/ListRankMFTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/NMFItemItemTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/NMFItemItemTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/PLSATestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/PLSATestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/PNMFTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/PNMFTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/RankALSTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/RankALSTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/RankSGDTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/RankSGDTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/SLIMTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/SLIMTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/WBPRTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/WBPRTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/WRMFTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/ranking/WRMFTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/ASVDPlusPlusTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/ASVDPlusPlusTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/AspectModelRatingTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/AspectModelRatingTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/BPMFTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/BPMFTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/BPoissMFTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/BPoissMFTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/BiasedMFTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/BiasedMFTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/FFMTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/FFMTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/FMALSTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/FMALSTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/FMFTRLTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/FMFTRLTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/FMSGDTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/FMSGDTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/GPLSATestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/GPLSATestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/LDCCTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/LDCCTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/LLORMATestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/LLORMATestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/MFALSTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/MFALSTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/NMFTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/NMFTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/PMFTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/PMFTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/RBMTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/RBMTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/RfRecTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/RfRecTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/SVDPlusPlusTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/SVDPlusPlusTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/URPTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/cf/rating/URPTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/content/EFMTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/content/EFMTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/content/HFTTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/content/HFTTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/ranking/SBPRTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/ranking/SBPRTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/RSTETestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/RSTETestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/SoRecTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/SoRecTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/SoRegTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/SoRegTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/SocialMFTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/SocialMFTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/TimeSVDTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/TimeSVDTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/TrustMFTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/TrustMFTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/TrustSVDTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/context/rating/TrustSVDTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/ext/AssociationRuleTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/ext/AssociationRuleTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/ext/BipolarSlopeOneTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/ext/BipolarSlopeOneTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/ext/ExternalTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/ext/ExternalTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/ext/PRankDTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/ext/PRankDTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/ext/PersonalityDiagnosisTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/ext/PersonalityDiagnosisTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/ext/SlopeOneTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/ext/SlopeOneTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/hybrid/HybridTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/hybrid/HybridTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/item/RecommendedItemListTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/recommender/item/RecommendedItemListTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/similarity/BinaryCosineSimilarityTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/similarity/BinaryCosineSimilarityTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/tool/driver/DataDriverTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/tool/driver/DataDriverTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/test-classes/net/librec/tool/driver/RecDriverTestCase.class" afterPath="$PROJECT_DIR$/core/target/test-classes/net/librec/tool/driver/RecDriverTestCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/librec.log" afterPath="$PROJECT_DIR$/bin/librec.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/.classpath" afterPath="$PROJECT_DIR$/core/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/annotation/LibrecWaring.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/annotation/LibrecWaring.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/annotation/ModelData.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/annotation/ModelData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/common/AbstractContext.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/common/AbstractContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/common/LibrecContext.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/common/LibrecContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/common/LibrecException.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/common/LibrecException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/conf/Configurable.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/conf/Configurable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/conf/Configuration.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/conf/Configuration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/conf/Configured.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/conf/Configured.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/DataAppender.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/DataAppender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/DataContext.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/DataContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/DataConvertor.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/DataConvertor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/DataModel.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/DataModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/DataSplitter.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/DataSplitter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/convertor/AbstractDataConvertor.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/convertor/AbstractDataConvertor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/convertor/ArffDataConvertor.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/convertor/ArffDataConvertor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/convertor/JDBCDataConvertor.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/convertor/JDBCDataConvertor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/convertor/TextDataConvertor.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/convertor/TextDataConvertor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/convertor/appender/DocumentDataAppender.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/convertor/appender/DocumentDataAppender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/convertor/appender/SocialDataAppender.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/convertor/appender/SocialDataAppender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/model/AbstractDataModel.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/model/AbstractDataModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/model/ArffAttribute.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/model/ArffAttribute.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/model/ArffDataModel.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/model/ArffDataModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/model/ArffInstance.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/model/ArffInstance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/model/JDBCDataModel.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/model/JDBCDataModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/data/model/TextDataModel.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/data/model/TextDataModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/eval/Measure.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/eval/Measure.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/net/librec/job/JobConf.java" afterPath="$PROJECT_DIR$/core/src/main/java/net/librec/job/JobConf.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/resources/rec/cf/itemknn-test.properties" afterPath="$PROJECT_DIR$/core/src/main/resources/rec/cf/itemknn-test.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/test/java/net/librec/entrace/BHFree.java" afterPath="$PROJECT_DIR$/core/src/test/java/net/librec/entrace/BHFree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/test/java/net/librec/gui/Client.java" afterPath="$PROJECT_DIR$/core/src/test/java/net/librec/gui/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/test/java/net/librec/gui/DataModel.java" afterPath="$PROJECT_DIR$/core/src/test/java/net/librec/gui/DataModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/test/java/net/librec/gui/GUIConsole.java" afterPath="$PROJECT_DIR$/core/src/test/java/net/librec/gui/GUIConsole.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/test/java/net/librec/gui/Index.java" afterPath="$PROJECT_DIR$/core/src/test/java/net/librec/gui/Index.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/test/java/net/librec/gui/Recommender.java" afterPath="$PROJECT_DIR$/core/src/test/java/net/librec/gui/Recommender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/classes/rec/cf/itemknn-test.properties" afterPath="$PROJECT_DIR$/core/target/classes/rec/cf/itemknn-test.properties" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/core/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,24 +466,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="librec.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/librec.properties">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/test/java/net/librec/gui/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+            <state relative-caret-position="66">
+              <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main.java">
+      <file leaf-file-name="DataModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/test/java/net/librec/gui/DataModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="-2170">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/test/java/net/librec/gui/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,41 +500,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibrecWaring.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/net/librec/annotation/LibrecWaring.java">
+      <file leaf-file-name="Index.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/test/java/net/librec/gui/Index.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LibrecException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/net/librec/common/LibrecException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="librec.cmd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/librec.cmd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="librec" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/librec">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-934">
-              <caret line="63" column="15" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="15" />
+            <state relative-caret-position="426">
+              <caret line="159" column="16" lean-forward="false" selection-start-line="159" selection-start-column="16" selection-end-line="159" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -78,10 +512,15 @@
       </file>
     </leaf>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find />
-    </findStrings>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -91,20 +530,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/conf/main" />
-        <option value="$PROJECT_DIR$/conf/main.java" />
-        <option value="$PROJECT_DIR$/bin/new.properties" />
-        <option value="$PROJECT_DIR$/conf/librec.properties" />
-        <option value="$PROJECT_DIR$/core/src/main/java/net/librec/main.java" />
-        <option value="$PROJECT_DIR$/bin/main.java" />
-        <option value="$PROJECT_DIR$/core/src/main.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/net/librec/gui/test.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="713" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="222" />
+    <option name="y" value="40" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -121,144 +561,90 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec-2.0.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec-2.0.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec-2.0.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec-2.0.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec-2.0.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec-2.0.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="librec-2.0.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="myLibrec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLibrec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLibrec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLibrec" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLibrec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLibrec" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLibrec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLibrec" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLibrec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLibrec" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLibrec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLibrec" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLibrec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLibrec" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="librec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLibrec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLibrec" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="librec" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myLibrec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myLibrec" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="librec" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="Index.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/core/src" />
-      <recent name="$PROJECT_DIR$/core/src/main" />
-      <recent name="$PROJECT_DIR$/bin" />
-      <recent name="$PROJECT_DIR$/core/src/main/java/net/librec" />
-    </key>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../new/librec-2.0.0/librec-2.0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -272,68 +658,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.librec.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.librec.gui.Client" />
+      <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="core" />
+      <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -341,7 +684,6 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-      <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -356,23 +698,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -393,53 +718,12 @@
       </option>
       <envs />
       <patterns />
-      <method />
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="librec" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -447,7 +731,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -475,57 +758,66 @@
       <envs />
       <properties />
       <listeners />
-      <method />
     </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6503a4dd-a467-470d-8562-2e54b650f1fb" name="Default" comment="" />
-      <created>1511357406310</created>
+      <changelist id="3af6cd2a-78ca-4718-9667-2ee57bf1f269" name="Default" comment="" />
+      <created>1513077787548</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1511357406310</updated>
+      <updated>1513077787548</updated>
+      <workItem from="1513077799861" duration="138000" />
+      <workItem from="1513079042897" duration="700000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="838000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="713" extended-state="0" />
+    <frame x="-8" y="-8" width="1861" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.cmd" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -535,215 +827,55 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/librec.properties">
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/net/librec/gui/DataModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-339">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="-2170">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/new">
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/net/librec/gui/Index.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="426">
+          <caret line="159" column="16" lean-forward="false" selection-start-line="159" selection-start-column="16" selection-end-line="159" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/main">
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/net/librec/gui/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="66">
+          <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/main.class">
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/net/librec/gui/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/net/librec/math/algorithm/Gamma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/net/librec/recommender/baseline/ItemAverageRecommender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/net/librec/recommender/baseline/ConstantGuessRecommender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/net/librec/recommender/baseline/ItemClusterRecommender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/new.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.name">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recruitment.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/librec.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/librec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-934">
-          <caret line="63" column="15" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/net/librec/common/LibrecException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/net/librec/annotation/LibrecWaring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/net/librec/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/net/librec/similarity/AbstractRecommenderSimilarity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/net/librec/util/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/librec.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

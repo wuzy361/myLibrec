@@ -1,20 +1,4 @@
-/**
- * Copyright (C) 2016 LibRec
- * <p>
- * This file is part of LibRec.
- * LibRec is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * <p>
- * LibRec is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU General Public License for more details.
- * <p>
- * You should have received a copy of the GNU General Public License
- * along with LibRec. If not, see <http://www.gnu.org/licenses/>.
- */
+
 package net.librec.data.convertor.appender;
 
 import com.google.common.collect.*;
@@ -34,51 +18,35 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * A <tt>SocialDataAppender</tt> is a class to process and store social appender
- * data.
- *
- * @author SunYatong
- */
+
 public class SocialDataAppender extends Configured implements DataAppender {
 
-    /** The size of the buffer */
+    
     private static final int BSIZE = 1024 * 1024;
 
-    /** a {@code SparseMatrix} object build by the social data */
+    
     private SparseMatrix userSocialMatrix;
 
-    /** The path of the appender data file */
+    
     private String inputDataPath;
 
-    /** User {raw id, inner id} map from rating data */
+    
     private BiMap<String, Integer> userIds;
 
-    /** Item {raw id, inner id} map from rating data */
+    
     private BiMap<String, Integer> itemIds;
 
-    /**
-     * Initializes a newly created {@code SocialDataAppender} object with null.
-     */
+    
     public SocialDataAppender() {
         this(null);
     }
 
-    /**
-     * Initializes a newly created {@code SocialDataAppender} object with a
-     * {@code Configuration} object
-     *
-     * @param conf  {@code Configuration} object for construction
-     */
+    
     public SocialDataAppender(Configuration conf) {
         this.conf = conf;
     }
 
-    /**
-     * Process appender data.
-     *
-     * @throws IOException if I/O error occurs during processing
-     */
+    
     @Override
     public void processData() throws IOException {
         if (conf != null && StringUtils.isNotBlank(conf.get("data.appender.path"))) {
@@ -87,14 +55,7 @@ public class SocialDataAppender extends Configured implements DataAppender {
         }
     }
 
-    /**
-     * Read data from the data file. Note that we didn't take care of the
-     * duplicated lines.
-     *
-     * @param inputDataPath
-     *            the path of the data file
-     * @throws IOException if I/O error occurs during reading
-     */
+    
     private void readData(String inputDataPath) throws IOException {
         // Table {row-id, col-id, rate}
         Table<Integer, Integer, Double> dataTable = HashBasedTable.create();
@@ -159,41 +120,23 @@ public class SocialDataAppender extends Configured implements DataAppender {
         dataTable = null;
     }
 
-    /**
-     * Get user appender.
-     *
-     * @return the {@code SparseMatrix} object built by the social data.
-     */
+    
     public SparseMatrix getUserAppender() {
         return userSocialMatrix;
     }
 
-    /**
-     * Get item appender.
-     *
-     * @return null
-     */
+    
     public SparseMatrix getItemAppender() {
         return null;
     }
 
-    /**
-     * Set user mapping data.
-     *
-     * @param userMappingData
-     *            user {raw id, inner id} map
-     */
+    
     @Override
     public void setUserMappingData(BiMap<String, Integer> userMappingData) {
         this.userIds = userMappingData;
     }
 
-    /**
-     * Set item mapping data.
-     *
-     * @param itemMappingData
-     *            item {raw id, inner id} map
-     */
+    
     @Override
     public void setItemMappingData(BiMap<String, Integer> itemMappingData) {
         this.itemIds = itemMappingData;

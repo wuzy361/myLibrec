@@ -1,37 +1,6 @@
-/**
- * Copyright (C) 2016 LibRec
- * <p>
- * This file is part of LibRec.
- * LibRec is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * <p>
- * LibRec is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU General Public License for more details.
- * <p>
- * You should have received a copy of the GNU General Public License
- * along with LibRec. If not, see <http://www.gnu.org/licenses/>.
- */
+
 package net.librec.common;
 
-
-/**
- * The class {@code LibrecException} and its subclasses are a form of
- * {@code Throwable} that indicates conditions that a reasonable
- * application might want to catch.
- *
- * <p>The class {@code LibrecException} and any subclasses that are not also
- * subclasses of {@link RuntimeException} are <em>checked
- * exceptions</em>.  Checked exceptions need to be declared in a
- * method or constructor's {@code throws} clause if they can be thrown
- * by the execution of the method or constructor and propagate outside
- * the method or constructor boundary.
- *
- * @author WangYuFeng
- */
 public class LibrecException extends Exception {
 
     private static final long serialVersionUID = 6348898228892052525L;

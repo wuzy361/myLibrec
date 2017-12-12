@@ -7,11 +7,7 @@ import java.lang.annotation.Target;
 
 import static java.lang.annotation.ElementType.*;
 
-/**
- * Librec Waring Annotation
- *
- * @author Keqiang Wang
- */
+
 
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
